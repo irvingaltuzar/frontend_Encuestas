@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons');
+
+@import "./variables.scss";
+
+.v-application {
+  [class*='text-'] {
+    font-family: $body-font-family !important;
+  }
+	font-family: $body-font-family !important;
+	.subtitle-1{
+		font-family: $body-font-family !important;
+	}
+	.subtitle-2{
+		font-family: $body-font-family !important;
+	}
+}
+
+
